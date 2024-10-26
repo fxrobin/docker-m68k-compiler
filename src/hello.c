@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-void main()
+/**
+ * Prints a hello message, waits for the user to press Enter.
+ */
+int main(void)
 {
-    printf("Hello Bitmap Brothers!\n");
-    printf("Press Enter");
+    puts("Hello Bitmap Brothers!");
+    puts("Press Enter...");
     getchar();
+    return 0;
 }
